@@ -1,0 +1,4 @@
+Le tri à bulles est très lent puisqu'il parcourt toute la liste à trier autant de fois qu'il y a de nombres dans cette liste.
+Sa complexité est ainsi d'autant plus élevée lorsque la liste fournie est longue, étant donné qu'il va comparer chaque élément avec son voisin en parcourant la liste une première fois, puis recommencer, là où un tri par sélection est plus rapide.
+Il me semble que sa complexité est de N puissance N, puisqu'il y a une boucle à l'intérieur d'une autre boucle. De plus, il y a une instruction conditionnelle qui augmente d'autant plus la complexité de cet algorithme.
+Ainsi, là où l'algorithme de tri d'une liste l=[1,2] sera très rapide (la liste étant courte et déjà triée), celui d'une liste comprenant un très grand nombre d'éléments rangés par ordre décroissant sera très long.
